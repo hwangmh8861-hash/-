@@ -1,0 +1,64 @@
+:root {
+  --stage-lead: #9CA3AF;
+  --stage-tm: #3B82F6;
+  --stage-material: #06B6D4;
+  --stage-evd-scheduled: #8B5CF6;
+  --stage-evd-done: #A855F7;
+  --stage-proposal: #F59E0B;
+  --stage-contract-review: #10B981;
+  --stage-contract-done: #059669;
+  --stage-hold: #FBBF24;
+  --stage-drop: #EF4444;
+
+  --priority-s: #DC2626;
+  --priority-a: #EA580C;
+  --priority-b: #CA8A04;
+  --priority-c: #6B7280;
+
+  --tag-negative: #EF4444;
+  --tag-warning: #F59E0B;
+  --tag-neutral: #6B7280;
+  --tag-info: #3B82F6;
+  --tag-positive: #10B981;
+
+  --bg: #FAFAFA;
+  --surface: #FFFFFF;
+  --surface-2: #F3F4F6;
+  --border: #E5E7EB;
+  --text: #111827;
+  --text-muted: #6B7280;
+  --shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
+  --overlay: rgba(15, 23, 42, 0.48);
+  --focus: 0 0 0 3px rgba(59, 130, 246, 0.22);
+
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 16px;
+  --s-4: 24px;
+  --s-5: 32px;
+  --s-6: 48px;
+
+  --font: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --t-xs: 12px;
+  --t-sm: 14px;
+  --t-base: 16px;
+  --t-lg: 18px;
+  --t-xl: 24px;
+  --t-2xl: 32px;
+
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --navbar-height: 72px;
+}
+
+[data-theme="dark"] {
+  --bg: #0F172A;
+  --surface: #1E293B;
+  --surface-2: #111827;
+  --border: #334155;
+  --text: #F1F5F9;
+  --text-muted: #94A3B8;
+  --shadow: 0 18px 45px rgba(0, 0, 0, 0.28);
+  --overlay: rgba(2, 6, 23, 0.72);
+}
